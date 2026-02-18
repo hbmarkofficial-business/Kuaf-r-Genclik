@@ -12,22 +12,22 @@ const Index = () => {
     <>
       <Helmet>
         {/* Titel & Meta Description */}
-        <title>Barbershop Prenzlauer Berg | The Gentleman's Cut</title>
+        <title>Kuaför Genclik Herren Friseur Berlin | Barbershop</title>
         <meta
           name="description"
-          content="Besuche unseren Premium Barbershop The Gentleman's Cut in Berlin Prenzlauer Berg für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
+          content="Besuche unseren Premium Barbershop Kuaför Genclik Herren Friseur in Berlin für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
         />
         <meta
           name="keywords"
-          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Berlin, Prenzlauer Berg"
+          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Berlin"
         />
         <link rel="canonical" href="https://gentlemanscut.de" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta property="og:title" content="Kuaför Genclik Herren Friseur | Premium Barbershop Berlin" />
         <meta
           property="og:description"
-          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Berlin Prenzlauer Berg."
+          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Berlin."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://gentlemanscut.de" />
@@ -35,7 +35,7 @@ const Index = () => {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta name="twitter:title" content="Kuaför Genclik Herren Friseur | Premium Barbershop Berlin" />
         <meta
           name="twitter:description"
           content="Erleben Sie erstklassige Haarschnitte und Bartpflege für den modernen Gentleman."
@@ -47,7 +47,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Barbershop",
-            "name": "The Gentleman's Cut",
+            "name": "Kuaför Genclik Herren Friseur",
             "image": "https://gentlemanscut.de/images/logo.png",
             "address": {
               "@type": "PostalAddress",
