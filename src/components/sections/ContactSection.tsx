@@ -55,7 +55,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Färberstraße 54, 90402 Nürnberg
+                    Buttmannstraße 1, 13357 Berlin
                   </p>
                 </div>
               </div>
@@ -68,10 +68,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a
-                    href="tel:015118311067"
+                    href="tel:015775429152"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    015118311067
+                    015775429152
                   </a>
                 </div>
               </div>
@@ -84,9 +84,11 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. – Fr. 10:00–20:00 Uhr
+                    Mo. – Do. 9:00–19:30 Uhr
                     <br />
-                    Sa. 10:00–19:00 Uhr
+                    Sa. 9:00–12:00 Uhr, 13:00-19:30 Uhr
+                    <br />
+                    Sa. 9:00–19:30 Uhr
                   </p>
                 </div>
               </div>
@@ -99,7 +101,7 @@ export const ContactSection = () => {
               </Button>
 
               <Button variant="goldOutline" size="xl" asChild>
-                <a href="tel:+4917629117689">Jetzt anrufen</a>
+                <a href="tel:015775429152">Jetzt anrufen</a>
               </Button>
             </div>
           </AnimateOnScroll>
@@ -109,7 +111,7 @@ export const ContactSection = () => {
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5187.871688976504!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769505288553!5m2!1sde!2sde"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38849.82845560266!2d13.333303669531256!3d52.513270911875956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85225c88913df%3A0x4bbb8f552622f0d4!2sKuaf%C3%B6r%20Genclik%20(Herren%20Friseur)!5e0!3m2!1sde!2sde!4v1771410786178!5m2!1sde!2sde"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
